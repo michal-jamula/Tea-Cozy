@@ -1,0 +1,175 @@
+html {
+    scroll-padding-top: 69px;
+}
+
+* {
+    font-family: Helvetica, sans-serif;
+    /*import later */
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    box-sizing: border-box;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    text-align: center;
+}
+h1 {
+    font-size: 230px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+header {
+    position: fixed;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    display: flex;
+    text-decoration: underline;
+    width: 100%;
+    z-index: 1;
+}
+
+#logo {
+    height: 50px;
+    margin: 10px 10px 10px 10px;
+}
+
+.header-items {
+    display: flex;
+    justify-content: flex-end;
+    width: max-content;
+    flex: 1 1 0%;
+}
+
+.header-item {
+    margin-left: 1%;
+    margin-right: 1%;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+}
+
+
+
+.header-item:hover ,button:hover, a:hover {
+    text-decoration: none;
+    background-color: rgba(169, 169, 169, 0.1);
+    color: white;
+}
+
+body {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+section {
+    align-self: center;
+    top: 69px;
+    display: inline-flex;
+    position: relative;
+    flex-direction: column;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+#our-mission {
+    background: url('./img/img-mission-background.jpg');
+    height: 700px;
+    width: 1200px;
+}
+
+.text-container {
+    display: inline-flex;
+    flex-direction: column;
+    height: 80px;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.card-container {
+    max-width: 1000px;
+    min-width: 300px;
+    display: inline-flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.card {
+    display: inline-flex;
+    flex-direction: column;
+    margin: 15px 0 15px 0;
+}
+
+.card img {
+    width: 300px;
+    height: 200px;
+    margin: 0 0 10px 0;
+}
+
+#tea-of-the-month {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+#location {
+    background: url('./img/img-locations-background.jpg');
+    display: inline-flex;
+    height: 500px;
+    width: 1200px;
+    justify-content: center;
+
+}
+
+#location h2 {
+    margin-bottom: 15px;
+}
+
+.location-card-container {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    column-gap: 40px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.location-card {
+    height: 300px;
+    width: 300px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: black;
+    opacity: 1;
+}
+
+footer {
+    display: inline-flex;
+    position: relative;
+    top: 69px;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 20px 10px 20px;
+}
+
+.footer-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 200px;
+}
+
+footer p {
+    text-align: left;
+}
+
+
